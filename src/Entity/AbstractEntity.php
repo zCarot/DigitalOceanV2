@@ -19,7 +19,7 @@ abstract class AbstractEntity
     /**
      * @var array
      */
-    protected $unknownProperties = [];
+    protected $unknownProperties = array();
 
     /**
      * @param \stdClass|array $parameters
